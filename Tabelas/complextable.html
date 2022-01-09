@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://img.icons8.com/ios-glyphs/30/000000/puzzle.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Complexa</title>
+</head>
+<body>
+    <table>
+        <caption>Produzidos vs Vendidos</caption>
+
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: blueviolet;">
+            <col span="2" style="background-color: chartreuse;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Malcom Calçados</th>
+                <th colspan="2" scope="colgroup">Norbi Calçados</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Solas</th>
+            <td>45</td>
+            <td>30</td>
+            <td>45</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <th scope="row">Cadarços</th>
+            <td>20</td>
+            <td>20</td>
+            <td>25</td>
+            <td>20</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
