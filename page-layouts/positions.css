@@ -1,0 +1,26 @@
+.box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.box.b1{
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.box.b2 {
+    background-color: aqua;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.box.b3 {
+    background-color: royalblue;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
