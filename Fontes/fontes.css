@@ -1,0 +1,27 @@
+.p1{
+    font-family: serif;
+    font-size: 1.2rem;
+    font-variant: small-caps;
+    letter-spacing: 10px;
+}
+.p2{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 15px;
+    font-stretch: condensed;
+    word-spacing: 10px;
+    text-shadow: 1px 8px 5px tomato;
+}
+
+p{
+    font:italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+}
+
+/* Shorthand
+
+
+Podemos usar o shorthand font para determinar os seguintes valores: font-style, font-variant, font-weight, font-stretch, font-size, line-height e font-family
+p {
+  font: italic normal bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+} */
