@@ -1,0 +1,47 @@
+<!-- Atributos comuns do input
+
+<input 
+type="email" 
+autocomplete="email" 
+autofocus 
+disabled 
+value="Algum valor" 
+readonly
+form="meu-form"
+name="email"
+required
+placeholder="Seu email"
+> -->
+
+<!-- Input password
+
+- Coloca uma senha de maneira segura 
+- Esconde o que está sendo digitado no campo
+- O estilo do inpu té de acordo com o UA
+
+minlenght/ maxlength
+size
+pattern
+inputmode- para smartphones
+-->
+
+<form action="" method="POST" enctype="multipart/form-data">
+    <input type="email" placeholder="digite seu email" multiple pattern=".+@gmail.com" title="somente gmail.com sao aceitos">
+
+    <input type="password" pattern="[0-9a-f-F]{4,8}" title="no minimo 4 caracteres e no maximo 8 e HEX" placeholder="digite sua senha" inputmode="numeric">
+
+    <input type="url" placeholder="htttp://url.com.br" spellcheck="true">
+
+    <input type="file" accept="image/*">
+
+    <input type="color">
+
+    <input type="checkbox">
+
+    <input type="hidden" name="escondido">
+
+    <input type="number" name="" id="">
+
+    <input type="submit" value="Enviar">
+
+</form>
